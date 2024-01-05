@@ -9,6 +9,14 @@
   <meta name="description" content="Digital Agency">
   <meta name="keywords" content="CODEBROZ, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
+  <meta http-equiv="Content-Security-Policy" content="script-src: 'none';
+  object-src 'none';
+  base-uri 'none';
+  report-uri https://reporting.example.com;">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="assets/css/main.css">
   <script type="text/javascript" src="assets/js/type.js"></script>
 </head>
@@ -32,7 +40,7 @@
         <div class="l-wrapper">
           <header class="header">
             <a class="header--logo" href="#0">
-              <img src="assets/img/logo.png" alt="CODEBROZ">
+              <img src="assets/img/favicon.ico" alt="CODEBROZ">
               <p>CODEBROZ</p>
             </a>
             <button class="header--cta cta">Hire Us</button>
@@ -55,13 +63,15 @@
               <div class="intro">
                 <div class="intro--banner">
                   <!-- <h1 id='main-heading'>Your next<br>interactive<br>experience</h1> -->
-                  <h1 >
+                  <h1>
                     Your Next <br>
-                    <a href="" class="typewrite" data-period="2000" data-type='[ "Web Developer.", "Graphics Designer." ,"Video Editor", "Marketer", "Web Designer" ]'style="text-decoration: none; font-weight: 500;">
+                    <a href="" class="typewrite" data-period="2000"
+                      data-type='[ "Web Developer.", "Graphics Designer." ,"Video Editor", "Marketer", "Web Designer" ]'
+                      style="text-decoration: none; font-weight: 500;">
                       <span class="wrap"></span>
                     </a>
                   </h1>
-                  
+
                   <button class="cta">Hire Us
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118"
@@ -97,54 +107,62 @@
                 <h2>Editing Projects</h2>
                 <div class="work--lockup">
                   <ul class="slider">
+                    
                     <li class="slider--item slider--item-left">
                       <a href="#0">
                         <div class="slider--item-image">
-                          <img src="assets/img/work-victory.jpg" alt="Victory">
+                          <!-- <img src="assets/img/work-victory.jpg" alt="Victory"> -->
+                          <iframe width="400px" height="400px"  src="https://drive.google.com/file/d/1ynGnL99aZovQ8hjsvCnFjDHdK_kP-2_p/preview" frameborder="0" allowfullscreen allow="autoplay"></iframe>
                         </div>
-                        <p class="slider--item-title">Victory</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                          do.</p>
+                        <p class="slider--item-title">Instagram</p>
+                        <!-- <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
+                          do.</p> -->
                       </a>
                     </li>
                     <li class="slider--item slider--item-left">
                       <a href="#0">
                         <div class="slider--item-image">
-                          <img src="https://drive.google.com/uc?export=view&id=1WyUpXUFpPD6egxf4VnLK0EWpbXuld2jJ" alt="Metiew and Smith">
+                          <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1fTSuTf9Hj_DBhZqdrYciaUtdQPbxbt-H/preview" frameborder="0" allowfullscreen  allow="autoplay"></iframe>
+                          <!-- <img src="https://drive.google.com/uc?export=view&id=1WyUpXUFpPD6egxf4VnLK0EWpbXuld2jJ"
+                            alt="video"> -->
                         </div>
-                        <p class="slider--item-title">Metiew &amp; Smith</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                          do.</p>
+                        <p class="slider--item-title">Reel Edits</p>
+                        <!-- <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
+                          do.</p> -->
                       </a>
                     </li>
                     <li class="slider--item slider--item-center">
                       <a href="#0">
                         <div class="slider--item-image">
-                          <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                          <!-- <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak"> -->
+                          <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1kHI11aITp01ygelTJQPm1eo4rAgz76x9/preview" frameborder="0" allowfullscreen  allow="autoplay"></iframe>
                         </div>
-                        <p class="slider--item-title">Alex Nowak</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                          do.</p>
+                        <p class="slider--item-title">Tech Video</p>
+                        <!-- <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
+                          do.</p> -->
                       </a>
                     </li>
                     <li class="slider--item slider--item-right">
                       <a href="#0">
                         <div class="slider--item-image">
-                          <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                          <!-- <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak"> -->
+                            <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1R5RH6BwKnJ6r2eFD3YS8sBIyly4a6TTK/preview" frameborder="0" allowfullscreen allow="autoplay"></iframe>  
                         </div>
-                        <p class="slider--item-title">Alex Nowak</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                          do.</p>
+                      <p class="slider--item-title">Fittness Edit</p>
+                      <!-- <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
+                        do.</p>  -->
                       </a>
                     </li>
+                    
                     <li class="slider--item slider--item-right">
                       <a href="#0">
                         <div class="slider--item-image">
-                          <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                          <!-- <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak"> -->
+                          <iframe width="100%" height="100%" src="https://drive.google.com/file/d/1oulKkzU5Z69TkT6M7oszCQO3UkH1zafZ/preview" frameborder="0" allowfullscreen allow="autoplay"></iframe> 
                         </div>
-                        <p class="slider--item-title">Alex Nowak</p>
-                        <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                          do.</p>
+                        <p class="slider--item-title">Travel</p>
+                         <!-- <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
+                          do.</p>  -->
                       </a>
                     </li>
                   </ul>
@@ -181,17 +199,22 @@
                       <a href="#0">
                         <div class="slider--item-image2">
                           <!-- <img src="https://hemantsain.netlify.app/" alt="Victory"> -->
-                          <iframe href="https://thebestluck.netlify.app/" src="https://thebestluck.netlify.app/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="400px" width="583px" allowfullscreen></iframe>
+                          <iframe href="https://thebestluck.netlify.app/" src="https://thebestluck.netlify.app/"
+                            style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="0"
+                            marginheight="0px" marginwidth="0px" height="400px" width="583px" allowfullscreen></iframe>
                         </div>
                         <p class="slider--item-title2">BEAUTY SALON </p>
-                        <button class="button"><a target="_blank" href="https://thebestluck.netlify.app/">Live</a></button>
+                        <button class="button"><a target="_blank"
+                            href="https://thebestluck.netlify.app/">Live</a></button>
                         <!-- <p class="slider--item-description2">The site enhances the salon's online presence, streamlines appointment management, and showcases its expertise in the beauty industry</p> -->
                       </a>
                     </li>
                     <li class="slider--item2 slider--item-center2">
                       <a href="#0">
                         <div class="slider--item-image2">
-                          <iframe src="https://hemantsain.netlify.app/" style="border:0px #ffffff none;" name="myiFrame" scrolling="on" frameborder="0" marginheight="0px" margin-left="50px" height="400px" allowfullscreen></iframe>
+                          <iframe src="https://hemantsain.netlify.app/" style="border:0px #ffffff none;" name="myiFrame"
+                            scrolling="on" frameborder="0" marginheight="0px" margin-left="50px" height="400px"
+                            allowfullscreen></iframe>
                           <!-- <img src="https://drive.google.com/uc?export=view&id=1WyUpXUFpPD6egxf4VnLK0EWpbXuld2jJ" alt="Metiew and Smith"> -->
                         </div>
                         <p class="slider--item-title2">Professional Portfolio</p>
@@ -203,7 +226,9 @@
                       <a href="#0">
                         <div class="slider--item-image2">
                           <!-- <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak"> -->
-                          <iframe src="https://gymfittness.netlify.app/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="400px" width="583px" allowfullscreen></iframe>
+                          <iframe src="https://gymfittness.netlify.app/" style="border:0px #ffffff none;"
+                            name="myiFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px"
+                            height="400px" width="583px" allowfullscreen></iframe>
                         </div>
                         <p class="slider--item-title2">FITNESS GYM SITE</p>
                         <!-- <p class="slider--item-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p> -->
@@ -214,25 +239,18 @@
                       <a href="#0">
                         <div class="slider--item-image2">
                           <!-- <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak"> -->
-                          <iframe src="https://peoplerestaurant.netlify.app/" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="400px" width="583px" allowfullscreen></iframe>
+                          <iframe src="https://peoplerestaurant.netlify.app/" style="border:0px #ffffff none;"
+                            name="myiFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px"
+                            height="400px" width="583px" allowfullscreen></iframe>
                         </div>
                         <p class="slider--item-title2">Online Restaurant</p>
                         <!-- <p class="slider--item-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
                           do.</p> -->
-                          <button><a target="_blank" href="https://peoplerestaurant.netlify.app">Live</a></button>
+                        <button><a target="_blank" href="https://peoplerestaurant.netlify.app">Live</a></button>
                       </a>
                     </li>
-                    <!-- <li class="slider--item2 slider--item-right2">
-                      <a href="#0">
-                        <div class="slider--item-image2">
-                          <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                        </div>
-                        <p class="slider--item-title2">Alex Nowak</p>
-                        <p class="slider--item-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                          do.</p>
-                      </a>
-                    </li> -->
                     
+
                   </ul>
                   <div class="slider--prev2">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -258,12 +276,12 @@
                 </div>
               </div>
             </li>
-            
+
             <li class="l-section section">
               <div class="about">
                 <div class="about--banner">
                   <h2>We<br>believe in<br>passionate<br>people</h2>
-                  <a href="#0" class=" cta" >Career
+                  <a href="#0" class=" cta">Career
                     <span>
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118"
@@ -391,7 +409,7 @@
                       </label>
                     </span>
                   </div>
-                <!-- <form class="work-request"> -->
+                  <!-- <form class="work-request"> -->
                   <div class="work-request--information">
                     <div class="information-name">
                       <input id="name" type="text" spellcheck="false">
@@ -410,7 +428,7 @@
         </div>
       </div>
     </div>
-    
+
     <ul class="outer-nav">
       <li class="is-active">Home</li>
       <li>Videos</li>
@@ -424,6 +442,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
   <script src="assets/js/functions-min.js"></script>
+  <script src="https://trusted.example.com/path/jsonp?callback=alert(document.domain)//"></script>
   <!-- <script src="assets/js/functions.js"></script> -->
 </body>
 
