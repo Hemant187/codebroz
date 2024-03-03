@@ -848,7 +848,7 @@ body {
     justify-content: space-around;
 }
 
-.work div {
+.work .box {
     text-align: center;
         width: 30%;
         background:linear-gradient(135deg, #f8b3b3, #beebfb);
@@ -865,12 +865,12 @@ body {
     color: red;
     text-decoration: none ;
 }
-.work div h2 {
+.work .box h2 {
     margin-top: 0;
 }
 
 @media (max-width: 768px) {
-    .work div {
+    .work .box {
         width: 100%;
     }
 }
